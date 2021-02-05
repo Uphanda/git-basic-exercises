@@ -1,1 +1,3 @@
-chocolate,strewberry,banana
+chocolate,
+strewberry,
+banana
