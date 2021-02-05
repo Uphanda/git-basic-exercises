@@ -1,0 +1,294 @@
+    1  git config --global user.name "Uphanda"
+    2  git config --global user.email "nkosinathimagubane1@gmail.com"
+    3  cat .git/config
+    4  git version
+    5  git help config
+    6  mkdr test
+    7  mkdir test
+    8  cd test
+    9  git init
+   10  git status
+   11  git add demo.txt
+   12  git commit -m "commit a text file"
+   13  clear
+   14  git config --global user.username uphanda
+   15  git remote add origin https://github.com/Uphanda/test_demo.git
+   16  git push origin master
+   17  git push origin 
+   18  git push --set-upstream origin master
+   19  clear
+   20  git remote add origin https://github.com/Uphanda/test_demo.git
+   21  git push origin master
+   22  git show-ref
+   23  git commit -m 'initial commit' 
+   24  clear
+   25  git config --globa user.name "uphanda'
+   26  git config --global user.name "uphanda"
+   27  git config --global user.email "nkosinathimagubane1@gmail.com"
+   28   .git/config
+   29  clear
+   30  git --global user.name "uphanda"
+   31  git config --global user.name "uphanda"
+   32  git config --global user.email"nkosinathimagubane1@gmail.com"
+   33  git config --global color.ui true
+   34  git config --global core.editor emacs
+   35  ssh-keygen -t rsa -C "nkosinathimagubane1@gmail.com"
+   36  clear
+   37  git config --global user.name "uphanda"
+   38  git config --global user.name
+   39  git config --globa user.email
+   40  git master
+   41  clear
+   42  git commit -m "commiting a text file"
+   43  git remote origin unknown option: --global
+   44  git origin push master
+   45  mkdir low
+   46  cd low
+   47  git init
+   48  git status
+   49  git add demo.txt
+   50  git commit -m "commiting to a text file"
+   51  git config --global user.name uphanda
+   52  git remote add origin unknown option: --global
+   53  git remote add origin https://github.com/Uphanda/test_demo.git
+   54  git push origin master
+   55  clear
+   56  $ clear
+   57  clear
+   58  mkdir git-basic-exercises
+   59  cd git-basic-exercises
+   60  ls -a
+   61  git init
+   62  ls -a
+   63  git status
+   64  touch README.md
+   65  ls -a
+   66  git status
+   67  git log
+   68  git add README.md
+   69  git status
+   70  git reset -- README
+   71  git status
+   72  git reset -- README.md
+   73  git status
+   74  git add README.md
+   75  git commit -m "initial commit"
+   76  git log
+   77  q
+   78  q
+   79  nano README.md
+   80  cat README.md
+   81  git status
+   82  git commit -m "second commit"
+   83  git add README.md
+   84  git status
+   85  cat README.md
+   86  nano README.md
+   87  nano README.md
+   88  git commit -m "second commit"
+   89  git status
+   90  git log
+   91  nano README.md
+   92  git commit -m "third commit"
+   93  git log
+   94  git add README.md
+   95  nano README.md
+   96  nano README.md
+   97  git status
+   98  git log
+   99  git add README.md
+  100  nano README.md
+  101  git commit -m "third commit"
+  102  git log
+  103  git checkout b909422c99d502bcff8a00c5bdc68678c4bd6f6d
+  104  git checkout b909422c99d502bcff8a00c5bdc68678c4bd6f6d
+  105  cat README.md
+  106  git checkout main
+  107  cat README.md
+  108  git brach
+  109  git branch
+  110  git branch milk-shake-flavours
+  111  nano milkshakes.md
+  112  git status
+  113  git add milkshakes.md
+  114  git commit -m "added initial flavours"
+  115  git log
+  116  git branch history
+  117  git log
+  118  git branch
+  119  history>history.txt
+  120  git commit -m "added history"
+  121  git log
+  122  git add history.txt
+  123  git log
+  124  git commit -m "added history"
+  125  git log
+  126  checkout milk-shake-flavours
+  127  gil log
+  128  git log
+  129  git commit -m "random readme changes"
+  130  git add README.md
+  131  checkout history
+  132  cat README.md
+  133  rm README.md
+  134  echo "booya"> README.md
+  135  git commit -m "rewrote readme"
+  136  checkout
+  137  git branch
+  138  git checkout main 
+  139  ls
+  140  git log
+  141  git checkout milk-shake-flavours
+  142  ls
+  143  git log
+  144  git log
+  145  git checkout main
+  146  git merge milk-shake-flavours
+  147  ls
+  148  git log
+  149  git checkout main
+  150  git merge history
+  151  git checkout history
+  152  git log
+  153  git remote add origin https://github.com/Uphanda/git-basic-exercises.git
+  154  git branch -M main
+  155  git push -u origin main
+  156  git remote add origin https://github.com/Uphanda/git-basic-exercises.git
+  157  git branch -M main
+  158  git push -u origin main
+  159  git remote add origin https://github.com/Uphanda/git-basic-exercises.git
+  160  git branch -M main
+  161  git push -u origin history
+  162  git push -u milk-shake-flavours
+  163  git remote add origin https://github.com/Uphanda/git-basic-exercises.git
+  164  git branch -M main
+  165  git push -u origin milk-shake-flavours
+  166  cd ../
+  167  git clone https://github.com/Umuzi-org/a-repo-to-clone
+  168  cd a-repo-to-clone
+  169  git branch
+  170  git log
+  171  git branch -a
+  172  git branch project/git-basic-exercises
+  173  git remove -v
+  174  git remote -v
+  175  git log
+  176  cd
+  177  mkdir this-will-be-another-repo
+  178  cd this-will-be-another-repo
+  179  git init
+  180  touch README.md
+  181  cd 
+  182  cd git-basic-exercises
+  183  git log
+  184  touch ignore-me.db
+  185  git status
+  186  git add ignore-me.db
+  187  nano .gitignore
+  188  nano .gitignore
+  189  git status
+  190  mkdir large-directory-that-should-be-local-only
+  191  cd large-directory-that-should-be-local-only
+  192  git add readme.md
+  193  touch readme.md
+  194  git commit -m "some random characters"
+  195  cd ..
+  196  git status
+  197  nano .gitignore
+  198  git status
+  199  git add .gitignore
+  200  git commit -m "added .gitignore"
+  201  git push
+  202  git status
+  203  cd git-basic-exercises
+  204  git status
+  205  git branch
+  206  git status
+  207  touch ignore-me.db
+  208  git status
+  209  git ls-tree -r master
+  210  git ls-tree
+  211  git check-ignore
+  212  git check-ignore *
+  213  git check-ignore -v *
+  214  git status --ignored
+  215  git status
+  216  touch ignore-me.db
+  217  git status
+  218  nano .gitignore
+  219  nano .gitignore
+  220  git status
+  221  git add .gitignore
+  222  git push
+  223  cd ..
+  224  git status
+  225  git rm --cached ignore-me.db
+  226  cd git-basic-exercises
+  227  git rm --cached ignore-me.db
+  228  git commit -m "removed ignore-me.db from repository only"
+  229  git push
+  230  cd git-basic-exercises
+  231  ls -a
+  232  git init
+  233  ls -a
+  234  git status
+  235  touch README.md
+  236  ls -a
+  237  git status
+  238  git add README.md
+  239  git status
+  240  git reset -- README.md
+  241  git status
+  242  git add README.md
+  243  git status
+  244  git commit -m "initial commit"
+  245  git log
+  246  nano README.md
+  247  cat README.md
+  248  git status
+  249  git commit im " second commit"
+  250  git commit -m " second commit"
+  251  nano README.md
+  252  git commit -m "third commit"
+  253  git log
+  254  nano README.md
+  255  git status
+  256  git add README.md
+  257  git commit -m "second commit"
+  258  nano README.md
+  259  git add README.md
+  260  git commit -m "third commit"
+  261  git log
+  262  git checkout d6d56b52e1c287555d87937c345fe26637fe0398
+  263  cat README.md
+  264  git checkout main
+  265  cat README.md
+  266  git branch
+  267  git branch milk-shake-flavours
+  268  git branch milkshakes-flavours
+  269  git branch
+  270  git checkout milkshakes-flavours
+  271  git branch
+  272  git checkout history
+  273  git branch
+  274  git checkout milkshakes-flavours
+  275  nano milkshakes.md
+  276  git checkout milk-shake-flavours
+  277  git status
+  278  git add milkshakes.md
+  279  git commit -m "added initial flavours"
+  280  git log
+  281  git checkout milk-shake-flavours
+  282  git branch
+  283  nano milkshakes.md
+  284  git add milkshakes.md
+  285  git commit -m "added initial flavours"
+  286  git log
+  287  git branch
+  288  git checkout main
+  289  git branch
+  290  git checkout history
+  291  git log
+  292  git branch
+  293  histor > history.txt
+  294  history > history.txt
